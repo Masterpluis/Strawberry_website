@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Strawberries</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<link rel="icon" href="fav.png">
+		<script src="script/script.js"></script>
+	</head>
+	<body class="grid no-gap">
+		<header>
+			<nav class="container flex">
+				<div class="site-logo">
+					<a href="index.html">
+						<span>Strawberry</span>
+						<img src="media/logo.png" alt="Website logo">
+					</a>
+				</div>
+				<ul class="menu">
+					<li>
+						<a class="current" href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="dessert.html">Dessert</a>
+					</li>
+					<li>
+						<a href="cake.html">Cake</a>
+					</li>
+					<li>
+						<a onclick="toggleSubMenu('drinks')">Drinks</a>
+						<ul id="submenu-drinks">
+							<li><a href="drinks.html">Milkshake</a></li>
+							<li><a href="drinks.html#cocktail">Cocktail</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="visual-header grid-center">
+				<h1>Strawberries</h1>
+			</div>
+			<div class="container">
+				<section>
+					<h2>Strawberry milkshake</h2>
+					<div class="grid-center">
+						<a href="media/strawberry_milkshake.jpg" target="_blank" title="View picture">
+							<img src="media/strawberry_milkshake_1200.jpg" alt="Strawberry milkshake">	
+						</a>
+					</div>
+				</section>
+				<section class="flex tabl-row">
+					<div class="tabl-6-col">
+						<h2>Lorem</h2>
+						<p>Sed lobortis tortor quis neque mollis iaculis. Proin pretium sem turpis, vel suscipit urna vehicula non. Cras id nibh neque. Curabitur eget suscipit ex. Phasellus malesuada dapibus ante sit amet auctor. Ut vel eros purus. Integer sollicitudin suscipit dapibus. Praesent vestibulum, eros eget tristique tempus, sapien ante ullamcorper purus, a dapibus mauris massa vitae ex. Mauris quam ante, cursus ut sagittis ac, porttitor ut elit. In non blandit dui. Fusce interdum eros justo, vestibulum aliquet eros luctus ut. Aenean in libero odio. Curabitur a ex et arcu pellentesque luctus in quis sem.</p>
+					</div>
+					<div class="tabl-6-col">
+						<h2>Ipsum</h2>
+						<p>Etiam ut sapien ipsum. Nunc vel lectus pharetra, scelerisque orci sed, bibendum arcu. Proin tempor nibh non neque vehicula, eget sagittis velit dapibus. Vestibulum sit amet congue nunc. Curabitur nec malesuada erat. Duis orci odio, maximus vel ante eu, facilisis porttitor massa. Fusce at faucibus nibh. Aenean eu dui vel est eleifend pulvinar vitae maximus justo. Duis consequat, tortor quis posuere fermentum, tortor enim tincidunt purus, id imperdiet ligula lacus sit amet nunc. Cras faucibus sed justo sit amet tempus. Integer non semper risus. Fusce dignissim laoreet nisl, et laoreet est eleifend sit amet. Aenean tincidunt quam faucibus orci viverra semper.</p>
+					</div>
+				</section>
+				<section class="grid tabl-row landscape-10-cols">
+					<h2>Media</h2>
+					<div class="tabl-4-col landscape-2-col">
+						<video src="media/strawberry_video1.mp4" controls preload="metadata" loop></video>
+					</div>
+					<div class="embed-container tabl-4-col landscape-2-col">
+						<img src="media/strawberry_milkshake_750.jpg" alt="Strawberry Milkshake" srcset="media/strawberry_milkshake_750.jpg 750w, media/strawberry_milkshake_330.jpg 330w" sizes="(min-width: 768px) 330px, 750px">
+					</div>
+					<div class="embed-container tabl-4-col landscape-2-col">
+						<iframe src="https://www.youtube-nocookie.com/embed/tOLVTzievcY" allowfullscreen></iframe>
+					</div>
+					<div class="embed-container tabl-6-col landscape-2-col">
+						<iframe src="https://www.youtube-nocookie.com/embed/cgGmzbcOL9o" allowfullscreen></iframe>
+					</div>
+					<div class="embed-container tabl-6-col landscape-2-col">
+						<iframe src="https://www.youtube-nocookie.com/embed/tOLVTzievcY" allowfullscreen></iframe>
+					</div>
+				</section>
+				<section class="flex landscape-row">
+					<div class="card landscape-4-col flex tabl-row landscape-column">
+						<img class="tabl-6-col landscape-12-col" src="media/cards_strawberry_cake.jpg" alt="Strawberry milkshake">
+						<div class="tabl-6-col landscape-12-col">
+							<h2>Cake</h2>
+							<p>Sed lacus felis, dapibus quis pharetra at, laoreet ut tortor. Aenean suscipit at nibh non fermentum. Phasellus sed tortor lectus. Phasellus placerat leo quis ipsum vestibulum ornare. Suspendisse ultricies suscipit leo, a molestie velit viverra a.</p>
+							<a class="button" href="cake.html">More strawberry cakes</a>
+						</div>
+					</div>
+					<div class="card landscape-4-col flex tabl-row landscape-column">
+						<img class="tabl-6-col landscape-12-col" src="media/cards_strawberry_dessert.jpg" alt="Strawberry milkshake">
+						<div class="tabl-6-col landscape-12-col">
+							<h2>Dessert</h2>
+							<p>Sed lacus felis, dapibus quis pharetra at, laoreet ut tortor. Aenean suscipit at nibh non fermentum. Phasellus sed tortor lectus. Phasellus placerat leo quis ipsum vestibulum ornare. Suspendisse ultricies suscipit leo, a molestie velit viverra a.</p>
+							<a class="button" href="dessert.html">More strawberry desserts</a>
+						</div>
+					</div>
+					<div class="card landscape-4-col flex tabl-row landscape-column">
+						<img class="tabl-6-col landscape-12-col" src="media/cards_strawberry_milkshake.jpg" alt="Strawberry milkshake">
+						<div class="tabl-6-col landscape-12-col">
+							<h2>Drinks</h2>
+							<p>Sed lacus felis, dapibus quis pharetra at, laoreet ut tortor. Aenean suscipit at nibh non fermentum. Phasellus sed tortor lectus. Phasellus placerat leo quis ipsum vestibulum ornare. Suspendisse ultricies suscipit leo, a molestie velit viverra a.</p>
+							<a class="button" href="drinks.html">Milkshakes</a>
+							<a class="button" href="drinks.html#cocktail">Cocktails</a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<div class="container grid tabl-row">
+				<div class="tabl-3-col">
+					<p>Street 12</p>
+					<p>1234 AB City Village</p>
+					<p><a href="tel:+31612345678">+31 6 1234 5678</a></p>
+					<p><a href="mailto:name@domain.com">name@domain.com</a></p>
+				</div>
+				<div class="tabl-6-col">
+					<p><strong>Disclaimer: the content on this website is (partly) fictional. Don't follow instructions if you don't know what you're doing. Images and videos are from youtube and internet, not mine!</strong></p>
+				</div>
+				<div class="tabl-3-col">
+					<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19882.812711235587!2d6.051878079931639!3d51.47006041371557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7416490e79cc5%3A0xec5f4919446063e5!2sHet%20Aardbeienland!5e0!3m2!1snl!2snl!4v1595023979223!5m2!1snl!2snl" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				<div class="tabl-12-col grid-center copyright">
+					<p>© Copyright 2020</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
